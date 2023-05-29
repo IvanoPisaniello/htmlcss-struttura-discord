@@ -18,6 +18,11 @@
     border: 1px dashed black;
 }
 
+li {
+    list-style-type:
+        none;
+}
+
 /* header */
 
 header {
@@ -31,18 +36,40 @@ header {
     flex-grow: 1;
     min-height: 40px;
     background-color: orange;
+    padding: 8px 0;
 }
 
 .left-nav {
     width: 200px;
     min-height: 40px;
     background-color: orange;
+    align-items: center;
+
 }
 
 .right-nav {
     width: 200px;
     min-height: 40px;
     background-color: orange;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-link {
+    justify-content: center;
+    justify-content: space-evenly;
 }
 
 /* buttons-section */
+
+.buttons-section {
+    min-height: 400px;
+    background-color: blue;
+    padding: 60px 0;
+}
+
+.header-buttons {
+    min-height: 340px;
+    background-color: pink;
+    width: 600px;
+}
