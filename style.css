@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* genercis */
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.black-border {
+    border: 1px dashed black;
+}
+
+/* header */
+
+header {
+    min-height: 80px;
+    background-color: aqua;
+    padding: 20px 0;
+
+}
+
+.center-nav {
+    flex-grow: 1;
+    min-height: 40px;
+    background-color: orange;
+}
+
+.left-nav {
+    width: 200px;
+    min-height: 40px;
+    background-color: orange;
+}
+
+.right-nav {
+    width: 200px;
+    min-height: 40px;
+    background-color: orange;
+}
+
+/* buttons-section */
