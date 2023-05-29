@@ -23,8 +23,8 @@ li {
         none;
 }
 
-.bg.grey {
-    background-color: grey;
+.bg-grey {
+    background-color: lightgrey;
 }
 
 /* header */
@@ -80,7 +80,7 @@ header {
 
 /* first-section */
 
-.server-section {
+.inside-section {
     min-height: 400px;
     padding: 50px 0;
 }
@@ -96,3 +96,5 @@ header {
     width: 40%;
     background-color: pink;
 }
+
+/* second-section */
