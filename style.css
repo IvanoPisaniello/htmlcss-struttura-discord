@@ -97,4 +97,15 @@ header {
     background-color: pink;
 }
 
-/* second-section */
+/* fourth-section */
+
+.fourth-section {
+    min-height: 700px;
+    padding: 50px 0;
+
+}
+
+.main-box {
+    height: 700px;
+    background-color: green;
+}
